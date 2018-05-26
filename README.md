@@ -3,6 +3,8 @@
 ## Introduction
 Cosmos DB Table API Repository is a library which provides data store strategy for accessing cosmos db via the Table API. It provides seamless & managed way to perform CRUD operations on cosmos DB tables and query the same. The library also implements best practices to work with Table API.
 
+The current implementation targets all projects to .NET Framework 4.5.2 as Microsoft.Azure.CosmosDB.Table is not yet supported for .NET Standard. Please track https://github.com/Azure/azure-documentdb-dotnet/issues/344 for the same. The same code base can be re-targeted to .NET core once the support is enabled.
+
 ## Architecture
 Cosmos DB Table API Repository has two components.
 * Common Library for Cosmos DB Table API.
