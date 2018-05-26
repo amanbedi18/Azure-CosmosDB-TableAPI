@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTableRepository", "CosmosTableRepository\CosmosTableRepository.csproj", "{7D95F0A0-2864-43FE-ADD3-75E625721CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTableStore", "CosmosTableStore\CosmosTableStore.csproj", "{7CEA359D-298A-416E-8808-42D7B510AA21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D95F0A0-2864-43FE-ADD3-75E625721CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D95F0A0-2864-43FE-ADD3-75E625721CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D95F0A0-2864-43FE-ADD3-75E625721CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D95F0A0-2864-43FE-ADD3-75E625721CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEA359D-298A-416E-8808-42D7B510AA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEA359D-298A-416E-8808-42D7B510AA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEA359D-298A-416E-8808-42D7B510AA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEA359D-298A-416E-8808-42D7B510AA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A58A83AB-CA6B-459B-A649-5DBB71F12254}
+	EndGlobalSection
+EndGlobal
